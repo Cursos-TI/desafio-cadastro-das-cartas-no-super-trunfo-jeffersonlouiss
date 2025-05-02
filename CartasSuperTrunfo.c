@@ -94,15 +94,17 @@ int main()
 
     printf("\n");
     //comparativo das cartas
-    //usado operador ternario para facil implementacao da codicao logica
+    
     printf("Comparação de Cartas:\n");
-    printf("População: Carta %i venceu\n", populacao_0 > populacao_1 ? 1 : 2);
-    printf("Área: Carta %i venceu\n", area_0 > area_1 ? 1 : 2);
-    printf("PIB: Carta %i venceu\n", pib_0 > pib_1 ? 1 : 2);
-    printf("Pontos Turisticos: Carta %i venceu\n", nPontosTuris_0 > nPontosTuris_1? 1: 2);
-    printf("Densidade Populacional: Carta %i venceu\n", densidadePopulacional_0 > densidadePopulacional_1? 1: 2);
-    printf("PIB per Capitao: Carta %i venceu\n", pibPerCapita_0 > pibPerCapita_1 ? 1 : 2);
-    printf("Super Poder: Carta %i venceu\n", superPower0 > superPower1 ? 1 : 2);
+    printf("**** 0 = Carta de Numero 2 ****\n");
+    printf("**** 1 = Carta de Numero 1 ****\n");
+    printf("População:  %i venceu\n", populacao_0 > populacao_1);
+    printf("Área:  %i venceu\n", area_0 > area_1);
+    printf("PIB:  %i venceu\n", pib_0 > pib_1);
+    printf("Pontos Turisticos:  %i venceu\n", nPontosTuris_0 > nPontosTuris_1);
+    printf("Densidade Populacional: %i venceu\n", densidadePopulacional_0 > densidadePopulacional_1);
+    printf("PIB per Capitao:  %i venceu\n", pibPerCapita_0 > pibPerCapita_1);
+    printf("Super Poder:  %i venceu\n", superPower0 > superPower1);
 
     return 0;
 }
